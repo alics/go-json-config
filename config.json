@@ -1,0 +1,34 @@
+{
+  "ConnectionStrings": {
+    "DbConnection": "Server=.;User Id=app;Password=123;Database=Db",
+    "LogDbConnection": "Server=.;User Id=app;Password=123;Database=Log"
+  },
+  "Caching": {
+    "ApplicationKey": "key",
+    "Host": "192.168.01.01"
+  },
+  "Website": {
+    "ActivityLogEnable": "true",
+    "ErrorMessages": {
+      "InvalidTelephoneNumber": "Invalid Telephone Number",
+      "RequestNotFound": "Request Not Found",
+      "InvalidConfirmationCode": "Invalid Confirmation Code"
+    }
+  },
+  "Services": {
+    "List": [
+      {
+        "Id": 1,
+        "Name": "Service1"
+      },
+      {
+        "Id": 2,
+        "Name": "Service2"
+      },
+      {
+        "Id": 3,
+        "Name": "Service3"
+      }
+    ]
+  }
+}

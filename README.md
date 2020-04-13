@@ -41,8 +41,8 @@ Consider the following config.json file:
   }
 }
 ```
-The following code displays how to access several of the preceding configurations settings:
-you can get config value via GetSection function with specifying Json sections as string parameter split by ":"
+The following code displays how to access several of the preceding configurations settings.
+You can get config value via GetSection function with specifying Json sections as string parameter split by ":"
 
 ```Go
 c, err :=  jsonconfig.GetSection("ConnectionStrings:DbConnection")

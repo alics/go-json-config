@@ -47,7 +47,7 @@ You can get config value via GetSection function with specifying Json sections a
 ```Go
 c, err :=  jsonconfig.GetSection("ConnectionStrings:DbConnection")
 ```
-Any valid JSON is a valid configuration type, you can also bind a struct via jsonconfig. For example, Caching configuration can be
+Any valid Json is a valid configuration type. You can also bind a struct via jsonconfig. For example, Caching configuration can be
  bind to valid struct:
  
 ```Go

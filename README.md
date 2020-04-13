@@ -1,6 +1,6 @@
 # go-json-config
 Go jsonconfig is a very simple and easy to use configuration library, allowing JSON based config files for your Go application.
-Configuration provider read configuration data from config.json file. You can get the string value of a configuration by its section, or
+Configuration provider reads configuration data from config.json file. You can get the string value of a configuration by its section, or
 bind an interface to a valid JSON section.
 
 Consider the following config.json file:
@@ -47,7 +47,7 @@ You can get config value via GetSection function with specifying Json sections a
 ```Go
 c, err :=  jsonconfig.GetSection("ConnectionStrings:DbConnection")
 ```
-Any valid JSON is a valid configuration type, you also can bind a struct via jsonconfig. For example, Caching configuration can be
+Any valid JSON is a valid configuration type, you can also bind a struct via jsonconfig. For example, Caching configuration can be
  bind to valid struct:
  
 ```Go

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/alics/go-json-config.svg?branch=master)](https://travis-ci.com/alics/go-json-config)
+[![Go Report Card](https://goreportcard.com/badge/github.com/alics/go-json-config)](https://goreportcard.com/report/github.com/alics/go-json-config)
 # go-json-config
 Go jsonconfig is a very simple and easy to use configuration library, allowing Json based config files for your Go application.
 Configuration provider reads configuration data from config.json file. You can get the string value of a configuration, or
